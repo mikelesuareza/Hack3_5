@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Inter:wght@900&family=Anton&family=Catamaran:wght@200;300;400&family=Dancing+Script&family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@800&family=Poppins:wght@200;300&family=Ruda:wght@400;500;600;700;800;900&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Anonymous Pro", monospace;
+}
+
+.contenedor{
+    position: relative;
+    height: 100vh;
+    background-color: #5CE1E6;
+    overflow: hidden;
+}
+
+.linea-left{
+    position: absolute;
+    left: 2.5%;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+}
+
+section{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    top: 0;
+    left: 12.5%;
+}
+
+.top, .bottom{
+    height: 50%;
+    width: 100%;
+    /* object-fit: cover; */
+
+}
+
+.img{
+    width: 50%;
+    height: 100%;
+
+}
+
+.foto1>img, .foto2>img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size: 80px;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 3rem 4rem 3rem;
+    width: 50%;
+    height: 100%;
+}
+
+.texto2>span:nth-child(-n+5){
+
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.texto2>span:last-child{
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+
+.bottom, .foto2{
+    float: right;
+}
+
